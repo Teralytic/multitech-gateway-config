@@ -194,8 +194,8 @@
 		"radiostream": true,
 		"statusstream": true,
 		/* network parameters */
-		"keepalive_interval": 10,
-		"stat_interval": 30,
+		"keepalive_interval": 1,
+		"stat_interval": 100,
 		"push_timeout_ms": 100,
 		/* forward only valid packets */
 		"forward_crc_valid": true,
