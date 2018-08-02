@@ -9,7 +9,7 @@
 
 STATUSFILE=/var/config/.installer
 TZ=UTC
-URL=https://github.com/Teralytic/multitech-gateway-config/blob/master/US-global_conf.json
+URL=https://raw.githubusercontent.com/Teralytic/multitech-gateway-config/master/US-global_conf.json
 
 grep setup_complete $STATUSFILE > /dev/null 2> /dev/null
 if [ $? -eq 0 ] ; then
