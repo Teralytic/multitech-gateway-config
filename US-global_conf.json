@@ -184,7 +184,7 @@
 		"serv_port_up": 9001,
 		"serv_port_down": 9001,
 		/* network parameters */
-		"keepalive_interval": 1,
+		"keepalive_interval": 12,
 		"stat_interval": 120,
 		"push_timeout_ms": 120,
 		/* forward only valid packets */
