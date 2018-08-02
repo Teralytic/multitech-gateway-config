@@ -178,7 +178,7 @@ _EOF_
 PPPD=/usr/sbin/pppd
 
 # The default provider to connect to
-sleep 15s
+sleep 10s
 $PPPD call gsm
 _EOF_
 
@@ -371,10 +371,10 @@ if [ $? -eq 0 ] ; then
 	echo "installation is now complete"
 	echo "add $gwid to LoRa server and print label"
 	echo "setup_complete" >> $STATUSFILE
-	#echo "gateway will shutdown after enter key is pressed"
-	#echo "remove sd card after power down"
-	#read n
-	#sync;sync;sync
-	#shutdown -h now
-	#sleep 600
+	echo "gateway will shutdown after enter key is pressed"
+	echo "remove sd card after power down"
+	read n
+	sync;sync;sync
+	shutdown -h now
+	sleep 600
 fi
