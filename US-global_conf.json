@@ -179,29 +179,21 @@
 		}
 	},
 	"gateway_conf": {
+		/* server info */
 		"server_address": "lora.teralytic.io",
 		"serv_port_up": 9001,
 		"serv_port_down": 9001,
-		"servers": [ {
-			"server_address": "lora.teralytic.io",
-			"serv_port_up": 9001,
-			"serv_port_down": 9001,
-			"serv_enabled": true
-		} ],
-		/* streams */
-		"upstream": true,
-		"downstream": true,
-		"radiostream": true,
-		"statusstream": true,
 		/* network parameters */
 		"keepalive_interval": 1,
-		"stat_interval": 100,
-		"push_timeout_ms": 100,
+		"stat_interval": 120,
+		"push_timeout_ms": 120,
 		/* forward only valid packets */
 		"forward_crc_valid": true,
 		"forward_crc_error": false,
-		"forward_crc_disabled": true,
-		"platform": "*"
+		"forward_crc_disabled": false,
+		/* other */
+		"synch_word": 52,
+		"autoquit_threshold": 120
 	}
 
 }
