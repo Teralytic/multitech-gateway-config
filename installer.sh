@@ -184,7 +184,7 @@ _EOF_
 
 	update-rc.d ppp defaults
 	echo "testing connectivity to www.thethingsnetwork.org"
-	sleep 10s
+	sleep 20s
 
 	# Network should be configured allowing access to remote servers at this point
 	wget http://www.thethingsnetwork.org/ --no-check-certificate -O /dev/null -o /dev/null
