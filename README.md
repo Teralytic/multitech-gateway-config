@@ -1,6 +1,6 @@
 # multitech-gateway-config
 
-Copy flash-upgrade and installer.sh to the root directory of a FAT32 formatted MBR partitioned micro sd card
+Copy [flash-upgrade](https://drive.google.com/drive/folders/1FPnVB3JWDk1xwo8Y4_Cs1f3adNat0rO1?usp=sharing) and installer.sh to the root directory of a FAT32 formatted MBR partitioned micro sd card
 
 Remove front panel, insert SIM card and micro SD card, connect usb cable, connect cell and lora antenna, connect power
 
