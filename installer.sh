@@ -179,7 +179,7 @@ PPPD=/usr/sbin/pppd
 
 # The default provider to connect to
 sleep 10s
-$PPPD call gsm
+$$PPPD call gsm
 _EOF_
 
 	update-rc.d ppp defaults
